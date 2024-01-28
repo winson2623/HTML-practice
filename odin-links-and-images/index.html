@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Image</title>
+    </head>
+
+    <body>   
+        <h1>Homepage</h1>
+<!-- <a> is to anchor the text so that it can be linked to another web,video,pdf,images,etc... -->
+<!-- "href" (hypertext reference) specifies link destination -->
+<!-- "target" specifies where the link will be opened, making it blank means open in new blank tab -->
+<!-- "rel" means the relationship between current page and link
+noopener prevents link from gaining access from my web, noreferrer prevents them from know who opened their link -->
+        <!-- absolute link, other ppl link-->
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
+        
+        <!-- relative link, link within own web/directory-->
+        <!--add "./" then folder name then file name, so that code knows to start lookin within folder-->
+        <a href="./pages/about.html">About</a>
+
+        <!-- images use "img" and "src" works similar to "href" to embed image in both absolute & relative path -->
+        <!--"alt" will write a text when the image does not load correctly-->
+        <img src="https://www.theodinproject.com/mstile-310x310.png"
+        alt="The Odin Project Logo" height="310" width="310">
+        <img src="./images/dog.jpg" alt="Dog Photo" height="310" width="260">
+    </body> 
+
+
+</html>
